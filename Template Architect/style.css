@@ -1,0 +1,92 @@
+/* Navigation */
+.navbar{
+    background: white;
+}
+.navbar a {
+    color:black;
+    text-decoration: none;
+    padding:6px 8px;  
+    transition: 0.5s ease;
+}
+.navbar a:hover{
+    background: #b0b3b7;
+}
+.navbar .brand {
+    margin-left: 15px;
+    letter-spacing: 4px;
+}
+.navbar .nav-right{
+    letter-spacing: 3px;
+}
+/* Header */
+header {
+    position: relative;
+}
+header h1 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    display: block;
+    top:300px;
+    left: 0;
+    letter-spacing: 4px;
+}
+/* Project */
+.project {
+    width:98%;
+    margin:0 auto;
+    padding:0;
+    margin-top:60px;
+    margin-bottom: 60px;
+}
+.project .row{
+    padding:0 30px 0 15px;
+}
+.margin-pad{
+    padding:0;
+    position: relative;
+}
+.project p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding:5px 5px;
+}
+/* About */
+.about {
+    width:98%;
+    margin:0 auto;
+    padding:0;
+    margin-top:60px;
+    margin-bottom: 60px;
+}
+.about .row{
+    padding:0 30px 0 15px;
+}
+.about  h2{
+    margin:15px 0 20px 0;
+}
+.about  h3{
+    margin:0px 0 20px 0;
+}
+/* Contact */
+.contact{
+    width:98%;
+    margin:0 auto;
+    margin-top:80px;
+    margin-bottom: 40px;
+    padding:0 15px;
+}
+.contact input {
+    border-top:0;
+    border-left: 0;
+    border-right:0;
+    margin-bottom:15px;
+}
+.contact button{
+    margin:20px 0 30px 0;
+}
+footer p {
+    padding:30px 0;
+    color:white;
+}

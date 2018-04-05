@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="top-nav">
+        <div class="top-bar" id="myNavbar">
+            <a class="toggle float-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#home" class="">HOME</a>
+            <a href="#about" class="hide">
+                <i class="fa fa-user"></i> ABOUT</a>
+            <a href="#portfolio" class="hide">
+                <i class="fa fa-th"></i> PORTFOLIO</a>
+            <a href="#contact" class="hide">
+                <i class="fa fa-envelope"></i> CONTACT</a>
+            <a href="#" class="hide float-right hide">
+                <i class="fa fa-search"></i>
+            </a>
+        </div>
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="nav-toggle">
+            <a href="#about" class="" onclick="toggleFunction()">ABOUT</a>
+            <a href="#portfolio" class="" onclick="toggleFunction()">PORTFOLIO</a>
+            <a href="#contact" class="" onclick="toggleFunction()">CONTACT</a>
+            <a href="#" class="">SEARCH</a>
+        </div>
+    </div>
+    <!-- First Logo-text -->
+    <div class="bgimg-1" id="home">
+        <div class="text-logo" style="white-space:nowrap;">
+            <span class="">MY WEBSITE LOGO</span>
+        </div>
+    </div>
+    <!-- Content -->
+    <div class="content" id="about">
+        <h3 style="margin:28px 0" class="text-muted text-center">ABOUT ME</h3>
+        <p style="margin:18px 0" class="text-muted text-center">I LOVE FRONT-END</p>
+        <p class="text-muted">We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum
+            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <p class="text-center text-muted">
+                    <i class="fa fa-user" style="padding:0 10px"></i>My Name</p>
+                <br>
+                <img style="width:100%;height:auto" src="img/avatar_hat.jpg" alt="Ramdomname">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 mobile-none">
+                <p class="text-muted" style="padding:0 20px">
+                    Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.
+                </p>
+            </div>
+        </div>
+
+        <h5 style="padding:16px 0;margin:16px 0;" class="text-center text-muted">Im really good at:</h5>
+        <p style="letter-spacing:6px" class="text-muted">
+            <i style="padding:0 10px 0 0" class="fa fa-camera"></i>Photography</p>
+        <div class="progress" style="height:30px;margin-bottom:16px">
+            <div class="progress-bar bg-secondary" style="width:60%;height:30px;">60%</div>
+        </div>
+
+        <p style="letter-spacing:6px" class="text-muted">
+            <i style="padding:0 10px 0 0" class="fa fa-camera-retro"></i>Photoshop</p>
+        <div class="progress" style="height:30px;margin-bottom:16px">
+            <div class="progress-bar bg-secondary" style="width:70%;height:30px">70%</div>
+        </div>
+
+        <p style="letter-spacing:6px" class="text-muted">
+            <i style="padding:0 10px 0 0" class="fa fa-globe"></i>Web Designer</p>
+        <div class="progress" style="height:30px;margin-bottom:16px">
+            <div class="progress-bar bg-secondary" style="width:80%;height:30px">80%</div>
+        </div>
+
+    </div>
+    <!-- achievements -->
+    <div class="row achievement bg-secondary">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-12 text-center">
+            <h4>14+</h4>
+            <p>Partners</p>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-12 text-center">
+            <h4>55+</h4>
+            <p>Projects Done</p>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-12 text-center">
+            <h4>89+</h4>
+            <p>Happy Clients</p>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-12 text-center">
+            <h4>150+</h4>
+            <p>Meeting</p>
+        </div>
+    </div>
+    <!-- Second Logo-text -->
+    <div class="bgimg-2">
+        <div class="text-logo-2" style="white-space:nowrap;">
+            <span class="">PORTFOLIO</span>
+        </div>
+    </div>
+    <div class="content" id="portfolio">
+        <h3 class="text-muted text-center">MY WORK</h3>
+        <p class="text-muted text-center">Here are some of my latest lorem work ipsum tipsum.</p>
+        <p style="margin-bottom:40px" class="text-muted text-center">Click on the images to make them bigger</p>
+
+        <div class="row" style="margin-bottom: 0;">
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                <img style="width:100%;height:auto;" src="img/p1.jpg" alt="">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                <img style="width:100%;height:auto" src="img/p2.jpg" alt="">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                <img style="width:100%;height:auto" src="img/p3.jpg" alt="">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                <img style="width:100%;height:auto" src="img/p4.jpg" alt="">
+            </div>
+        </div>
+        <div class="row" style="margin-top:15px">
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                <img style="width:100%;height:auto" src="img/p5.jpg" alt="">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                <img style="width:100%;height:auto" src="img/p6.jpg" alt="">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                <img style="width:100%;height:auto" src="img/p7.jpg" alt="">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                <img style="width:100%;height:auto" src="img/p8.jpg" alt="">
+            </div>
+        </div>
+        <button type="button" class="btn btn-secondary" style="display:block;margin:auto">Secondary</button>
+    </div>
+    <!-- Third Logo-text -->
+    <div class="bgimg-3">
+        <div class="text-logo-3">
+            <span>CONTACT</span>
+        </div>
+    </div>
+    <div class="content" id="contact">
+        <h3 class="text-center text-muted">WHERE I WORK</h3>
+        <p class="text-center text-muted">I'd love your feedback!</p>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div id="map" style="width:100%;height:400px;"></div>
+            </div>
+            <div class="col-lg-8 col-md-4 col-sm-12">
+                <br>
+                <h4 class="text-muted">
+                    <i style="padding-right:30px" class="fa fa-map-marker"></i>VietName, VN</h4>
+                <h4 class="text-muted">
+                    <i style="padding-right:30px" class="fa fa-phone"></i>Phone: 0966132608</h4>
+                <h4 class="text-muted">
+                    <i style="padding-right:30px" class="fa fa-envelope"></i>Email: clechinh@gmail.com</h4>
+                <p class="text-muted">Swing by for a cup of , or leave me a note:</p>
+                <div class="row" style="margin:0">
+                    <div class="col-lg-6 col-md-6 col-sm-12" style="padding-right:0;padding-left:0">
+                        <div class="col-lg-12" style="padding-left:0;">
+                            <input type="text" placeholder="Name" style="width:100%;padding:8px">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12" style="padding-right:0;padding-left:0">
+                        <div class="col-lg-12" style="padding-left:0">
+                            <input type="text" placeholder="Email" style="width:100%;padding:8px">
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top:10px;margin-bottom:10px">
+                    <div class="col-lg-12 col-md-6 col-sm-12" style="padding-left:0">
+                        <input type="text" placeholder="Phone" style="width:100%;padding:8px">
+                    </div>
+                </div>
+                <button style="display:block;margin:auto;padding:8px 50px;background:black;color:white" type="button" class="">
+                    <i class="fa fa-paper-plane"></i>Send</button>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+
+    <footer class="bg-secondary">
+        <a href="#home" class="to-top text-muted">
+            <i class="fa fa-arrow-up"></i>To The Top</a>
+        <div class="text-center text-white" style="margin:15px 0"> 
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+        <a class="nav-link text-center text-white" href="###">Powered by Le Chinh</a>
+    </footer>
+    <script>
+        function myMap() {
+            var mapOptions = {
+                center: new google.maps.LatLng(51.5, -0.12),
+                zoom: 10,
+                mapTypeId: google.maps.MapTypeId.HYBRID
+            }
+            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAREzwuv5W2l39_wGvrmwISDW1Q3MxJ8VI&callback=myMap"></script>
+    <script>
+        function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("nav-show") == -1) {
+                x.className += " nav-show";
+            } else {
+                x.className = x.className.replace(" nav-show", "");
+            }
+        }
+        // Change style of navbar on scroll
+        window.onscroll = function () { myFunction() }
+        function myFunction() {
+            var navbar = document.getElementById("myNavbar")
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = " shadow" + " animate-top" + " white" + " bar"
+            } else {
+                navbar.className = navbar.className.replace(" shadow animate-top white bar", " ")
+            }
+        }
+        // MAp Google
+    </script>
+</body>
+
+</html>

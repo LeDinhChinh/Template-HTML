@@ -1,0 +1,144 @@
+body{
+    font-family: 'Times New Roman', Times, serif
+}
+/* Navigation top bar  */
+
+.gm-top {
+    background: white;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12)
+}
+.gm-top .navbar{
+    padding:8px 16px;
+}
+.gm-top .navbar a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 4px;
+    padding:8px 16px;
+    font-size: 15px;
+}
+.gm-top .navbar a:hover{
+    background: #c6c9ce;
+}
+@media screen and (max-width:768px){
+    .gm-top .navbar .navbar-right{display: none;}
+}
+/* Header */
+
+header {
+    width: 100%;
+    margin:2px 0 0 0;
+    position: relative;
+}
+header img {
+    height: auto;
+    width: 100%;
+}
+header h1{
+    letter-spacing: 6px;
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 30px 50px;
+}
+/* Content */
+.gm-content{
+    width: 75%;
+    margin:auto;
+}
+.gm-content .content-1 {
+    width: 100%;
+    padding:60px 0;
+}
+.gm-content .content-1 .p-content,.h5-content{
+    line-height: 1.6;
+    font-size: 18px;
+}
+.gm-content .content-1 .h1-content{
+    letter-spacing: 4px;
+    margin-top:20px;
+}
+.gm-content .content-1 .h5-content {
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:400px){
+    .gm-content{width:95%}
+}
+@media screen and (max-width:567px){
+    .gm-content{width:95%}
+}
+@media screen and (max-width:768px){
+    .gm-content{width:95%}
+}
+@media screen and (max-width:1200px){
+    .gm-content{width:95%}
+}
+
+.gm-content .content-2 {
+    width: 100%;
+    padding: 60px 0;
+}
+.gm-content .content-2 h1{
+    letter-spacing: 6px;
+}
+.gm-content .content-2 h4{
+    letter-spacing: 5px;
+    margin: 10px 0;
+}
+/* Contact */
+.contact {
+    padding:70px 0;
+    width: 75%;
+    margin:0 auto;
+}
+.contact h1 {
+    padding-bottom: 20px;
+}
+.contact p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.contact .gm-input {
+    width: 100%;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    padding:8px;
+    margin-bottom: 15px;
+}
+.contact button {
+    margin-top:20px;
+    padding:6px 10px;
+    letter-spacing: 1px;
+    background:  #c6c9ce;
+}
+.contact button:hover{
+    background: #333;
+}
+@media screen and (max-width:400px){
+    .contact{width:95%}
+}
+@media screen and (max-width:567px){
+    .contact{width:95%}
+}
+@media screen and (max-width:768px){
+    .contact{width:95%}
+}
+@media screen and (max-width:1200px){
+    .contact{width:95%}
+}
+/* Footer */
+footer{
+    background: #c6c9ce;
+}
+footer a {
+    text-decoration: none;
+    padding:50px 0;
+    display: block;
+    color: black;
+    text-align: center;
+}
+
+

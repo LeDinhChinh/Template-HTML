@@ -1,0 +1,193 @@
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Navigation bar */
+.top-nav{
+    width:100%;
+    padding:0;
+    position: fixed;
+    z-index: 1;
+}
+#myNavbar{
+    overflow: hidden;
+}
+#myNavbar a{
+    padding:8px 16px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+#myNavbar a:hover{
+    background: #9ca2ad;
+}
+.nav-toggle{
+    width:100%;
+    padding:0;
+}
+.nav-toggle{
+    overflow: hidden;
+}
+.nav-toggle a{
+    padding:8px 16px;
+    color: black;
+    text-decoration: none;
+    display:block;
+}
+.nav-toggle a:hover{
+    background: #9ca2ad;
+}
+#myNavbar .toggle{display: none}
+.nav-toggle{display: none}
+.nav-show{display:block}
+@media screen and (max-width:600px){
+    #myNavbar .hide {display: none}
+    #myNavbar .toggle{display: block}
+}
+@media screen and (min-width:600px) {
+    .nav-toggle{display: none}
+}
+.bar{
+    display: inline-block;
+    width: 100%;
+}
+.shadow {
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
+.animate-top{
+    position:relative;
+    animation:animatetop 0.4s;
+}
+@keyframes animatetop{
+    from {top:-300px;opacity: 0;}
+    to {top:0px;opacity: 1}
+}
+.white{
+    color: black;
+    background: #fff;
+}
+/* First Logo Text */
+.bgimg-1 {
+    opacity: 0.75;
+    background-image: url('img/parallax.jpg');
+    height: 800px;
+    position: relative;
+}
+.bgimg-1 .text-logo {
+    position: absolute;
+    top:42%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.bgimg-1 .text-logo span{
+    font-size: 24px;
+    padding: 12px 24px;
+    background: #000;
+    color: white;
+    letter-spacing: 8px;
+    text-align: center;
+}
+/* Content */
+
+.content{
+    width:70%;
+    margin:0 auto;
+    padding: 64px 16px;
+}
+.content .row {
+    margin:40px 0;
+}
+.content img:hover{
+    opacity: 0.7;
+}
+/* Achievements */
+.achievement {
+    padding:40px 0 ;
+}
+.achievement h4,p{
+    color:white;margin:0;
+}
+
+
+/* Second lOgo-text */
+
+.bgimg-2 {
+    opacity: 0.75;
+    background-image: url('img/parallax3.jpg');
+    height: 400px;
+    position: relative;
+}
+.bgimg-2 .col-lg-3{
+    padding-right:0px; 
+}
+.bgimg-2 .text-logo-2 {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    font-size: 32px;
+    color: white;
+    transform: translate(-50%,-50%);
+    letter-spacing: 8px;
+}
+/* Third logo-text */
+.bgimg-3 {
+    opacity: 0.75;
+    background-image: url("img/parallax1.jpg");
+    height:400px;
+    position: relative;
+}
+.bgimg-3 .text-logo-3 {
+    position: absolute;
+    top:50%;
+    left:50%;
+    font-size:32px;
+    color:white;
+    transform: translate(-50%,-50%);
+    letter-spacing: 8px;
+}
+/* Button */
+
+footer {
+    padding:30px 0;
+}
+footer .to-top{
+    background: white;
+    max-width: 130px;
+    display: block;
+    padding:8px 16px;
+    overflow:hidden;
+    text-decoration: none;
+    margin:auto
+}
+/* Responsive */
+
+@media screen and (max-width:2000px){
+    .content{width:55%;}
+}
+@media screen and (max-width:1400px){
+    .content{width:70%;}
+}
+@media screen and (max-width:1200px){
+    .content{width:75%;}
+}
+@media screen and (max-width:1000px){
+    .content{width:98%;}
+}
+@media screen and (max-width:600px){
+    .achievement{padding:20px 0;}
+    .achievement .col-lg-3:not(:last-child){margin-bottom:20px}
+    .mobile-none{display: none;}
+    .bgimg-2 .col-lg-3{
+        padding-right:15px;
+    }
+}
+
+
+
+
+
+
+
