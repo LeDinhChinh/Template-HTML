@@ -1,0 +1,95 @@
+/* Top-nav */
+nav {
+    background: black;
+}
+nav .nav-link{
+    display: inline-block;
+    color:white;
+    padding:4px 18px;
+}
+/* Header */
+header {
+    padding:60px 10px;
+}
+/* img header */
+
+.img-header{
+    position: relative;
+}
+.img-header .absolute{
+    position: absolute;
+    top:50%;
+    left: 0px;
+    color: white;
+    padding:20px;
+    letter-spacing: 4px;
+    transform: translate(0,-50%);
+}
+/* Modal */
+.modall {
+    display: none;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 3;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    padding-top:100px
+}
+.modall .container {
+    padding:32px;
+    width: 60%;
+    background: #fff;
+    margin:auto;
+}
+.modall .container button {
+    background: #c1c5cc;
+    color: black;
+    width:100%;
+    background:red;
+    color:white;
+    padding:6px 0;
+}
+.modall .container button:hover {
+    background: #c1c5cc;
+    color: black;
+}
+.animate-opacity{animation:opac 0.8s}
+@keyframes opac{
+    from{opacity:0} 
+    to{opacity:1}
+}
+
+/* Blog entries */
+.show {
+    display: block!important;
+}
+.container-fluid{
+    padding:0;
+    background: #d4d7db;
+}
+.container-fluid .blog-entry {
+    background: white;
+    padding:0 22px;
+    margin-bottom:20px
+}
+.card {border:0px !important;
+    border-radius: 0 !important;
+    margin-bottom:40px;
+}
+.hover-table ul li {
+    padding:16px;
+    border-bottom:1px solid #aaacaf; 
+}
+.hover-table ul li:hover{
+    background: #aaacaf;
+}
+.hover-table ul li img{
+    margin-right:13px;
+}
+.content-tag span {
+    display: inline-block;
+}
+
+
