@@ -1,0 +1,96 @@
+body {
+    font-family: 'Yeon Sung', cursive;
+    background: #f2e6de;
+}
+/* Top-nav */
+.nav {
+    background: black;
+    padding:5px;
+}
+.nav .nav-item {
+    width: 25%;
+}
+.nav .nav-link:hover {
+    background: #a6a9ad;
+    color: black;
+}
+.nav .nav-link{
+    color: white;
+    text-align: center;
+}
+/* Banner */
+.banner {
+    position: relative;
+    overflow: hidden;
+}
+.banner .left,.right {
+    position: absolute;
+    color: white;
+    margin:0;
+}
+.banner .left {
+    bottom:0px;
+    left:20px;
+    background: black;
+    padding:0 5px;
+}
+.banner .right {
+    bottom:0px;
+    right:20px;
+    padding:0 5px;
+}
+@media screen and (max-width:768px){
+    .left,.right{display: none;}
+}
+/* About */
+.container {
+    width: 50%;
+}
+.padding-70{
+    padding: 70px 0;
+}
+span {
+    font-size: 24px;
+    text-align: center;
+    background: black;
+    color: white;
+    padding:0 10px;
+    display: inline-block;
+    letter-spacing: 4px;
+}
+ p {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.about .quote {
+    background: #d1d2d3;
+    border-left: 6px solid #898a8c;
+    padding:15px;
+}
+.about img {
+    margin:30px 0;
+}
+/* Menu */
+.shadow {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.content-menu .head {
+    padding: 6px 10px;
+    box-shadow: 0 0px 5px 0 rgba(0,0,0,0.16), 0 0px 10px 0 rgba(0,0,0,0.12);
+    overflow: hidden;
+}
+.content-menu .head p {
+    text-align: center;
+    padding:5px;
+    display: inline-block;
+    margin:0;
+}
+.body-menu {
+    padding:50px 10px;
+}
+.body-menu div:not(:last-child) {
+    margin-bottom:40px;
+}
+input {
+    margin-bottom:10px;
+}

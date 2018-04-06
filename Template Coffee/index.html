@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poor+Story|Yeon+Sung" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Top nav -->
+    <nav>
+        <ul class="nav fixed-top">
+            <li class="nav-item">
+                <a href="#" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a href="#menu" class="nav-link">MENU</a>
+            </li>
+            <li class="nav-item">
+                <a href="#where" class="nav-link">WHERE</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Banner img -->
+    <div class="banner">
+        <img src="img/coffeehouse.jpg" style="width:100%;height:500px;" alt="">
+        <p class="left">Open from 6am to 5pm</p>
+        <p class="right">15 Adr street, 5015</p>
+    </div>
+    <!-- content -->
+    <div class="container">
+        <!-- About -->
+        <div class="about" id="about">
+            <h5 class="text-center padding-70">
+                <span>ABOUT THE CAFE</span>
+            </h5>
+            <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches,
+                as well as a selection of sides and salads and other good stuff.</p>
+            <div class="quote">
+                <p>
+                    "Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.
+                </p>
+                <p>Chef, Coffeeist and Owner: Liam Brown</p>
+            </div>
+            <img src="img/coffee.jpg" alt="" style="width:100%;">
+            <p>Opening hours: everyday from 6am to 5pm.</p>
+            <p>Address: 15 Adr street, 5015, NY</p>
+        </div>
+        <!-- Menu -->
+        <div class="menu" id="menu">
+            <h5 class="text-center padding-70">
+                <span>THE MENU</span>
+            </h5>
+            <div class="content-menu shadow">
+
+                <div class="head">
+                    <p id="eat-bg" onclick="eat()" style="width:50%;float:left;background: #898a8c;">Eat</p>
+                    <p id="drink-bg" onclick="drink()" style="width:50%;float:left">Drink</p>
+                </div>
+
+                <div id="eat" class="body-menu">
+                    <div>
+                        <h5>Bread Basket</h5>
+                        <p class="text-muted">Assortment of fresh baked fruit breads and muffins 5.50</p>
+                    </div>
+                    <div>
+                        <h5>Honey Almond Granola with Fruits</h5>
+                        <p class="text-muted">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                    </div>
+                    <div>
+                        <h5>Belgian Waffle</h5>
+                        <p class="text-muted">Vanilla flavored batter with malted flour 7.50</p>
+                    </div>
+                    <div>
+                        <h5>Scrambled eggs</h5>
+                        <p class="text-muted">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
+
+                        </p>
+                    </div>
+                    <div>
+                        <h5>Blueberry Pancakes</h5>
+                        <p class="text-muted">With syrup, butter and lots of berries 8.50
+
+                        </p>
+                    </div>
+                </div>
+                <div id="drink" class="body-menu" style="display:none">
+                    <div>
+                        <h5>Coffee</h5>
+                        <p class="text-muted">Regular coffee 2.50
+                        </p>
+                    </div>
+                    <div>
+                        <h5>Chocolato</h5>
+                        <p class="text-muted">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                    </div>
+                    <div>
+                        <h5>Belgian Waffle</h5>
+                        <p class="text-muted">Chocolate espresso with milk 4.50</p>
+                    </div>
+                    <div>
+                        <h5>Corretto</h5>
+                        <p class="text-muted">Whiskey and coffee 5.00
+                        </p>
+                    </div>
+                    <div>
+                        <h5>Blueberry Pancakes</h5>
+                        <p class="text-muted">With syrup, butter and lots of berries 8.50
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <img src="img/coffee1.jpg" alt="" style="width:100%;margin-top:30px">
+        </div>
+        <!-- Where -->
+        <div class="where" id="where">
+            <h5 class="text-center padding-70">
+                <span>WHERE TO FIND US</span>
+            </h5>
+            <p>Find us at some address at some place.</p>
+            <div id="map" style="width:100%;height:400px;background:yellow;margin-bottom:20px"></div>
+            <p>
+                <span class="bg-dark">Fly!</span> We offer full-service catering for any event, large or small. We understand your needs and we
+                will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+            <p>Reserve a table, ask for today's special or just send us a message:</p>
+            <input type="text" placeholder="  Name" style="width:100%;padding:12px">
+            <input type="number" placeholder="  How many people" style="width:100%;padding:12px">
+            <input type="text" placeholder="  Date" style="width:100%;padding:12px;">
+            <input type="text" placeholder="  Message / Special Requiment" style="width:100%;padding:12px">
+            <button type="button" class="bg-dark text-white" style="padding:12px">SEND MESSAGE</button>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="bg-secondary text-center" style="padding:50px;margin-top:40px">
+        Powered By Le Chinh
+    </footer>
+    <script>
+        function myMap() {
+            var mapOptions = {
+                center: new google.maps.LatLng(51.5, -0.12),
+                zoom: 10,
+                mapTypeId: google.maps.MapTypeId.HYBRID
+            }
+            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC170wdDWHyl3ShVMo8nt_41AcJbPokQk8&callback=myMap"></script>
+    <script>
+        function drink() {
+            document.getElementById("eat").style.display = "none"
+            document.getElementById("drink").style.display = "block"
+            document.getElementById("eat-bg").style.background = "white"
+            document.getElementById("drink-bg").style.background = "#898a8c"
+        }
+        function eat() {
+            document.getElementById("eat").style.display = "block"
+            document.getElementById("drink").style.display = "none"
+            document.getElementById("drink-bg").style.background = "white"
+            document.getElementById("eat-bg").style.background = "#898a8c"
+        }
+    </script>
+</body>
+
+</html>
